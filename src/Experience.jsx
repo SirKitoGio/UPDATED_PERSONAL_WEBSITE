@@ -11,7 +11,7 @@ const Experience = () => {
       company: "UnionDigital Bank",
       duration: "Nov 2025 – Present",
       category: "Work",
-      description: "Creating and optimizing SQL queries and architecting data pipelines to ensure high-performance data processing and accuracy.",
+      description: "Creating and optimizing SQL queries and assisting in building pipelines to ensure high-performance data processing and accuracy.",
       tags: ["SQL", "Data Pipelines", "AWS"]
     },
     {

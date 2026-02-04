@@ -10,16 +10,13 @@ function App() {
   return (
     <div className="bg-black min-h-screen text-zinc-300 selection:bg-green-500/30 relative overflow-hidden">
       
-      {/* THE GREEN CIRCLE HAZE */}
       <div className="fixed inset-0 z-0 pointer-events-none flex items-center justify-center">
-        {/* Soft Outer Glow */}
         <div 
           className="w-[1000px] h-[1000px] opacity-20 blur-[140px] rounded-full"
           style={{
-            background: 'radial-gradient(circle, rgba(34, 197, 94, 0.4) 0%, transparent 70%)'
+            background: 'radial-gradient(circle, rgba(0, 25, 187, 0.4) 0%, transparent 70%)'
           }}
         />
-        {/* Sharper Inner Haze */}
         <div className="absolute w-[500px] h-[500px] bg-green-500/10 blur-[100px] rounded-full" />
       </div>
 
