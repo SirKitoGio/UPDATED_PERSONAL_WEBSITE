@@ -74,7 +74,7 @@ const Hero = () => {
             <p className="text-zinc-400 leading-relaxed max-w-md">
               Data Intern at <span className="text-white border-b border-green-500">UnionDigital Bank</span>.
               <br />
-              Architecting serverless pipelines and wrestling with SQL queries until they submit.
+              Assisting in building pipelines and wrestling with SQL queries until they submit.
             </p>
           </div>
 
