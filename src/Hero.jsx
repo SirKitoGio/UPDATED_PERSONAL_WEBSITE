@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Terminal, ArrowDownRight, Github, Linkedin, Mail } from 'lucide-react';
-import { motion } from 'framer-motion'; // [Step 1: Import Motion]
+import { motion } from 'framer-motion'; 
 
 const Hero = () => {
   const [displayText, setDisplayText] = useState('');
@@ -32,7 +32,6 @@ const Hero = () => {
   }, [displayText, isDeleting, roleIndex]);
 
   return (
-    // [Step 2: Add initial fade-in to the whole section]
     <motion.div 
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
@@ -41,13 +40,12 @@ const Hero = () => {
       id="home"
     >
       <div className="absolute top-0 left-0 w-full p-4 border-b border-zinc-800 flex justify-between text-xs text-zinc-500 uppercase tracking-widest">
-        <span>System.Ready</span>
+        <span>Hidden.System.Ready</span>
         <span>Kito_OS v1.0</span>
       </div>
 
       <div className="max-w-5xl w-full mx-auto pt-20">
         
-        {/* [Step 3: Staggered entry for the Name] */}
         <motion.div 
           initial={{ y: 20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
@@ -64,7 +62,6 @@ const Hero = () => {
           </h1>
         </motion.div>
 
-        {/* [Step 4: Slide-up entry for the Grid] */}
         <motion.div 
           initial={{ y: 40, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
@@ -92,14 +89,12 @@ const Hero = () => {
             </p>
           </div>
 
-          {/* Contact Column */}
           <div className="space-y-6">
              <h2 className="text-xl text-white font-bold flex items-center gap-2">
               <ArrowDownRight className="w-5 h-5" />
               INITIATE CONTACT
             </h2>
             <div className="flex flex-col gap-3">
-              {/* Added a hover-tilt effect to buttons */}
               <motion.a 
                 whileHover={{ x: 10 }}
                 href="https://github.com/SirkitoGio" target="_blank" rel="noreferrer" 

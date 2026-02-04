@@ -9,7 +9,7 @@ const Experience = () => {
       year: "2025",
       title: "Data Intern",
       company: "UnionDigital Bank",
-      duration: "Sep 2025 – Present",
+      duration: "Nov 2025 – Present",
       category: "Work",
       description: "Creating and optimizing SQL queries and architecting data pipelines to ensure high-performance data processing and accuracy.",
       tags: ["SQL", "Data Pipelines", "AWS"]
@@ -91,7 +91,6 @@ const Experience = () => {
           <div className="absolute left-[7px] md:left-[31px] top-0 bottom-0 w-[2px] bg-gradient-to-b from-purple-500/50 via-zinc-800 to-transparent"></div>
 
           <div className="space-y-12">
-            {/* Using filteredExp and defining (exp, index) to fix the crash */}
             {filteredExp.map((exp, index) => (
               <motion.div 
                 key={index} 
