@@ -20,7 +20,7 @@ const About = () => {
           <div className="space-y-6 text-lg leading-relaxed font-light">
             <p>
               <strong className="text-white font-bold">CURRENT STATUS:</strong><br/>
-              When I'm not optimizing SQL queries or architecting pipelines for UnionDigital Bank, I'm usually head first into Python scripts. I believe data isn't just numbers—it's the architecture of modern truth. 
+              When I'm not optimizing SQL queries or assisting on building pipelines for UnionDigital Bank, I'm usually head first into Python scripts and JavaScript. I believe data isn't just numbers—it's the architecture of modern truth. 
             </p>
 
             <p>
