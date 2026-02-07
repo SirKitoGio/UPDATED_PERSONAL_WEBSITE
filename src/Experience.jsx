@@ -16,6 +16,15 @@ const Experience = () => {
     },
     {
       year: "2025",
+      title: "Data Engineering Pilipinas Scholar",
+      company: "DataCamp",
+      duration: "Nov 2025 – Present",
+      category: "Education",
+      description: "Sponsored a free DataCamp subscription to upskill in data engineering. Currently focused on mastering SQL, Python, and Snowflake to build scalable data solutions.",
+      tags: ["SQL", "Python", "Snowflake", "AWS"]
+    },
+    {
+      year: "2025",
       title: "Vice Chief of Relations",
       company: "AWS Learning Club - JRU Ch.",
       duration: "Aug 2025 – Present",
